@@ -20,7 +20,10 @@ Option 1: Make your change using GitHub Codespaces and preview the changes
 - Open your fork in GitHub Codespaces by clicking the "Code" button, then "Codespaces" tab, then "Create codespace on main".
   - Alternatively, click the badge at the top of this README for a quick start.
 - Wait for the development environment to set up (Hugo will be installed automatically).
-- Run `hugo server` in the terminal to start the development server.
+- Run this command in the terminal to start the development server:
+  ```bash
+  hugo server -D --appendPort=false --baseURL https://$CODESPACE_NAME-1313.$GITHUB_CODESPACES_PORT_FORWARDING_DOMAIN
+  ```
 - Make the needed or desired changes to the Markdown files.
 - Preview your changes in the browser (Codespaces will prompt you to open the preview).
 - Commit the changes and create a pull request.

@@ -11,6 +11,8 @@
 
 	"postCreateCommand": "git submodule update --init --recursive && hugo version",
 
+	"forwardPorts": [1313],
+
 	"customizations": {
 		"vscode": {
 			"extensions": [

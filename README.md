@@ -23,6 +23,9 @@ Option 1: Make your change using GitHub Codespaces and preview the changes
 - Run `hugodev` in the terminal to start the development server (this is a preconfigured alias)
 - Make the needed or desired changes to the Markdown files.
 - Preview your changes in the browser (Codespaces will prompt you to open the preview).
+
+<img width="1912" height="921" alt="codespaces-hugodev" src="https://github.com/user-attachments/assets/e3d9b460-bcc9-4dc0-80bf-b30672243a28" />
+
 - Commit the changes and create a pull request.
 
 

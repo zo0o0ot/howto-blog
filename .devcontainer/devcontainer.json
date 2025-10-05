@@ -9,7 +9,7 @@
 		}
 	},
 
-	"postCreateCommand": "hugo version",
+	"postCreateCommand": "git submodule update --init --recursive && hugo version",
 
 	"customizations": {
 		"vscode": {
